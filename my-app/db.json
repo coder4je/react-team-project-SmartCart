@@ -1,0 +1,361 @@
+{
+  "costAndIncome": [
+    {
+      "id": 1,
+      "state": "Mississippi",
+      "index": "83.1",
+      "image": "https://www.shutterstock.com/image-vector/mississippi-flag-usa-nation-vector-patriotic-1864401418",
+      "income": "45,081"
+    },
+    {
+      "id": 2,
+      "state": "Oklahoma",
+      "index": "84.8",
+      "image": "https://www.shutterstock.com/image-vector/oklahoma-map-us-state-beautiful-geometric-1795733365",
+      "income": "52,919"
+    },
+    {
+      "id": 3,
+      "state": "Kansas",
+      "index": "85.4",
+      "image": "https://www.shutterstock.com/image-vector/minimal-kansas-linear-city-skyline-typographic-606165458",
+      "income": "59,597"
+    },
+    {
+      "id": 4,
+      "state": "Alabama",
+      "index": "87.5",
+      "image": "https://www.shutterstock.com/image-vector/illustrated-map-alabama-state-usa-travel-1533094085",
+      "income": "50,536"
+    },
+    {
+      "id": 5,
+      "state": "Iowa",
+      "index": "88.1",
+      "image": "https://www.shutterstock.com/image-vector/vector-illustration-iowa-state-map-flag-1885234579",
+      "income": "60,523"
+    },
+    {
+      "id": 6,
+      "state": "Georgia",
+      "index": "88.2",
+      "image": "https://www.shutterstock.com/image-vector/welcome-georgia-sign-best-quality-1904513347",
+      "income": "58,700"
+    },
+    {
+      "id": 7,
+      "state": "Indiana",
+      "index": "89.2",
+      "image": "https://www.shutterstock.com/image-vector/state-indiana-map-united-states-america-1870563340",
+      "income": "56,303"
+    },
+    {
+      "id": 8,
+      "state": "Tennessee",
+      "index": "89.4",
+      "image": "https://www.shutterstock.com/image-vector/state-tennessee-flag-242693326",
+      "income": "53,320"
+    },
+    {
+      "id": 9,
+      "state": "Arkansas",
+      "index": "89.9",
+      "image": "https://www.shutterstock.com/image-vector/arkansas-usa-round-state-flag-ar-2102323774",
+      "income": "50,540"
+    },
+    {
+      "id": 10,
+      "state": "Michigan",
+      "index": "89.9",
+      "image": "https://www.shutterstock.com/image-vector/vintage-college-varsity-font-typography-michigan-1954416037",
+      "income": "57,144"
+    },
+    {
+      "id": 11,
+      "state": "West Virginia",
+      "index": "90.5",
+      "image": "https://www.shutterstock.com/image-vector/welcome-west-virginia-vintage-rusty-metal-2110251143",
+      "income": "46,711"
+    },
+    {
+      "id": 12,
+      "state": "Missouri",
+      "index": "90.5",
+      "image": "https://www.shutterstock.com/image-vector/hand-drawn-missouri-state-design-745644310",
+      "income": "55,461"
+    },
+    {
+      "id": 13,
+      "state": "Ohio",
+      "index": "90.8",
+      "image": "https://www.shutterstock.com/image-vector/illustrated-map-state-ohio-united-states-1146067322",
+      "income": "56,602"
+    },
+    {
+      "id": 14,
+      "state": "Illinois",
+      "index": "91.7",
+      "image": "https://www.shutterstock.com/image-vector/illinois-state-textured-vintage-vector-tshirt-1113936266",
+      "income": "65,886"
+    },
+    {
+      "id": 15,
+      "state": "Nebraska",
+      "index": "91.8",
+      "image": "https://www.shutterstock.com/image-vector/american-flag-nebraska-state-map-vector-1788655907",
+      "income": "61,439"
+    },
+    {
+      "id": 16,
+      "state": "Texas",
+      "index": "92.1",
+      "image": "https://www.shutterstock.com/image-vector/texas-state-logo-emblem-label-lone-1272541096",
+      "income": "61,874"
+    },
+    {
+      "id": 17,
+      "state": "Louisiana",
+      "index": "93.3",
+      "image": "https://www.shutterstock.com/image-vector/hand-drawn-louisiana-state-design-729000661",
+      "income": "49,469"
+    },
+    {
+      "id": 18,
+      "state": "Kentucky",
+      "index": "93.6",
+      "image": "https://image.shutterstock.com/image-vector/hand-drawn-kentucky-state-graphic-600w-732496792.jpg",
+      "income": "50,589"
+    },
+    {
+      "id": 19,
+      "state": "New Mexico",
+      "index": "93.6",
+      "image": "https://www.shutterstock.com/image-vector/new-mexico-map-border-flag-vector-1036820869",
+      "income": "49,754"
+    },
+    {
+      "id": 20,
+      "state": "South Carolina",
+      "index": "93.9",
+      "image": "https://www.shutterstock.com/image-vector/map-flag-state-south-carolina-33903022",
+      "income": "53,199"
+    },
+    {
+      "id": 21,
+      "state": "Wyoming",
+      "index": "93.9",
+      "image": "https://www.shutterstock.com/image-photo/wyoming-welcome-sign-429730135",
+      "income": "64,049"
+    },
+    {
+      "id": 22,
+      "state": "North Carolina",
+      "index": "95",
+      "image": "https://www.shutterstock.com/image-photo/welcome-sign-north-carolina-94353541",
+      "income": "54,602"
+    },
+    {
+      "id": 23,
+      "state": "South Dakota",
+      "index": "95.2",
+      "image": "https://www.shutterstock.com/image-photo/south-dakota-welcome-sign-628477808",
+      "income": "58,275"
+    },
+    {
+      "id": 24,
+      "state": "Wisconsin",
+      "index": "95.5",
+      "image": "https://www.shutterstock.com/image-vector/illustrated-map-wisconsin-usa-travel-attractions-1113844550",
+      "income": "61,747"
+    },
+    {
+      "id": 25,
+      "state": "North Dakota",
+      "index": "96.8",
+      "image": "https://www.shutterstock.com/image-vector/illustrated-map-north-dakota-state-usa-1519600001",
+      "income": "64,894"
+    },
+    {
+      "id": 26,
+      "state": "Minnesota",
+      "index": "97.2",
+      "image": "https://www.shutterstock.com/image-illustration/crumpled-fabric-flag-minnesota-state-usa-1935204449",
+      "income": "71,306"
+    },
+    {
+      "id": 27,
+      "state": "Pennsylvania",
+      "index": "97.2",
+      "image": "https://www.shutterstock.com/image-vector/pensylvania-usa-flag-vector-347387702",
+      "income": "61,744"
+    },
+    {
+      "id": 28,
+      "state": "Idaho",
+      "index": "99.4",
+      "image": "https://www.shutterstock.com/image-photo/lookout-pass-idaho-usa-september-1-1177275409",
+      "income": "55,785"
+    },
+    {
+      "id": 29,
+      "state": "Colorado",
+      "index": "102.4",
+      "image": "https://www.shutterstock.com/image-vector/colorado-mountain-illustration-logo-design-letter-2009727143",
+      "income": "72,331"
+    },
+    {
+      "id": 30,
+      "state": "Florida",
+      "index": "102.6",
+      "image": "https://www.shutterstock.com/image-vector/illustrated-map-state-florida-usa-travel-744375175",
+      "income": "55,660"
+    },
+    {
+      "id": 31,
+      "state": "Virginia",
+      "index": "102.7",
+      "image": "https://www.shutterstock.com/image-vector/virginia-usa-round-state-flag-va-2105047370",
+      "income": "74,222"
+    },
+    {
+      "id": 32,
+      "state": "Nevada",
+      "index": "103.1",
+      "image": "https://www.shutterstock.com/image-photo/welcome-nevada-road-sign-along-state-1087010051",
+      "income": "60,365"
+    },
+    {
+      "id": 33,
+      "state": "Utah",
+      "index": "104.2",
+      "image": "https://www.shutterstock.com/image-vector/utah-state-shape-mountains-1885140049",
+      "income": "71,621"
+    },
+    {
+      "id": 34,
+      "state": "Montana",
+      "index": "104.4",
+      "image": "https://image.shutterstock.com/image-vector/montana-usa-retro-tin-signs-600w-1963672906.jpg",
+      "income": "54,970"
+    },
+    {
+      "id": 35,
+      "state": "Delaware",
+      "index": "105.8",
+      "image": "https://www.shutterstock.com/image-vector/vector-illustration-delaware-nickname-first-state-2156502415",
+      "income": "68,287"
+    },
+    {
+      "id": 36,
+      "state": "Arizona",
+      "index": "106.7",
+      "image": "https://www.shutterstock.com/image-vector/arizona-cactus-line-vector-tshirt-design-1968709888",
+      "income": "58,945"
+    },
+    {
+      "id": 37,
+      "state": "Rhode Island",
+      "index": "112.8",
+      "image": "https://image.shutterstock.com/image-vector/rhode-island-black-silhouette-vector-600w-1914473257.jpg",
+      "income": "67,167"
+    },
+    {
+      "id": 38,
+      "state": "New Jersey",
+      "index": "112.9",
+      "image": "https://www.shutterstock.com/image-vector/illustrated-map-state-new-jersey-united-1146067358",
+      "income": "82,545"
+    },
+    {
+      "id": 39,
+      "state": "Washington",
+      "index": "113.9",
+      "image": "https://www.shutterstock.com/image-vector/washington-map-high-quality-vector-american-1757852825",
+      "income": "73,775"
+    },
+    {
+      "id": 40,
+      "state": "Maine",
+      "index": "115.1",
+      "image": "https://www.shutterstock.com/image-vector/maine-infographic-cartoon-hand-drawn-vector-2026966844",
+      "income": "57,918"
+    },
+    {
+      "id": 41,
+      "state": "Vermont",
+      "index": "116.9",
+      "image": "https://www.shutterstock.com/image-vector/official-current-vector-flag-federal-state-2092855918",
+      "income": "61,973"
+    },
+    {
+      "id": 42,
+      "state": "New Hampshire",
+      "index": "117.4",
+      "image": "https://www.shutterstock.com/image-photo/nashua-nh-february-5-welcome-sign-372683074",
+      "income": "76,768"
+    },
+    {
+      "id": 43,
+      "state": "Connecticut",
+      "index": "118.9",
+      "image": "https://www.shutterstock.com/image-vector/welcome-connecticut-vintage-rusty-metal-sign-2007415082",
+      "income": "78,444"
+    },
+    {
+      "id": 44,
+      "state": "Oregon",
+      "index": "125.2",
+      "image": "https://www.shutterstock.com/image-vector/mountain-illustration-outdoor-adventure-vector-graphic-1435322834",
+      "income": "62,818"
+    },
+    {
+      "id": 45,
+      "state": "Maryland",
+      "index": "126.4",
+      "image": "https://www.shutterstock.com/image-illustration/maryland-state-flag-vintage-road-tin-1910349076",
+      "income": "84,805"
+    },
+    {
+      "id": 46,
+      "state": "Alaska",
+      "index": "127.3",
+      "image": "https://www.shutterstock.com/image-photo/alaska-welcome-sign-404009488",
+      "income": "77,640"
+    },
+    {
+      "id": 47,
+      "state": "Massachusetts",
+      "index": "130.2",
+      "image": "https://image.shutterstock.com/image-vector/massachusetts-state-detailed-editable-map-600w-1869066646.jpg",
+      "income": "81,215"
+    },
+    {
+      "id": 48,
+      "state": "California",
+      "index": "139.7",
+      "image": "https://www.shutterstock.com/image-illustration/crumpled-fabric-flag-california-state-usa-1935687181",
+      "income": "$75,235"
+    },
+    {
+      "id": 49,
+      "state": "New York",
+      "index": "152.1",
+      "image": "https://www.shutterstock.com/image-vector/new-york-city-architecture-retro-vector-244998826",
+      "income": "68,486"
+    },
+    {
+      "id": 50,
+      "state": "District of Columbia",
+      "index": "158.8",
+      "image": "https://www.shutterstock.com/image-photo/san-francisco-downtown-business-residential-district-1167877645",
+      "income": "88,311"
+    },
+    {
+      "id": 51,
+      "state": "Hawaii",
+      "index": "192.7",
+      "image": "https://www.shutterstock.com/image-vector/aloha-hawaii-beach-vector-illustration-tshirt-2128171556",
+      "income": "81,275"
+    }
+  ]
+}
