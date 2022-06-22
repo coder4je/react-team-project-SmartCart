@@ -3,12 +3,12 @@ import React from "react";
 function DataCard({ card, onSelect }) {
   const { image, state, index, income } = card;
 
-  function handleClick(e) {
-    onSelect(e.target.value);
-  }
+  // function handleClick(e) {
+  //   onSelect(e.target.value);
+  // }
 
   return (
-    <div className="dataGrid" onClick={handleClick}>
+    <div className="dataGrid" onClick={() => onSelect(card)}>
       <div className="image">
         <img src={image} alt="state_image" />
       </div>
@@ -16,8 +16,12 @@ function DataCard({ card, onSelect }) {
         <h3>{state}</h3>
       </div>
       <div className="details">
-        <div className="cost living index">Cost Of Living Index: {index}</div>
-        <div className="median income">Median Income: {income}</div>
+        <div className="cost living index">
+          Cost Of Living Index: <strong>{index}</strong>
+        </div>
+        <div className="median income">
+          Median Income: <strong>{income}</strong>
+        </div>
       </div>
     </div>
   );

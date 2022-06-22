@@ -1,13 +1,13 @@
 import "./App.css";
 import DataManager from "./components/DataManager";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-      <div className="dataManager">
-        <DataManager />
-      </div>
-    </div>
+    <>
+      <Header />
+      <DataManager />
+    </>
   );
 }
 
