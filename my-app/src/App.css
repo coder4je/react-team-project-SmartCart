@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.App-header div {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +35,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.dataGrid {
+  display: inline;
+  background-repeat: no-repeat;
+  background-position: center 90%;
+  float: left;
+  margin: 2%;
+  padding: 1%;
+  outline: #3b0b0b dotted thick;
+  transition: 0.75s;
+  opacity: 1;
 }
