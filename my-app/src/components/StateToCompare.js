@@ -1,10 +1,14 @@
 // import React from "react";
 // import DataCard from "./DataCard";
 
-// function StateToCompare({ selectedItem, onSelect }) {
+// function StateToCompare({ StateToCompare, onSelect }) {
 //   return (
 //     <div className="selected State Section">
-//       <DataCard key={selectedItem.id} card={selectedItem} onSelect={onSelect} />
+//       <DataCard
+//         key={StateToCompare.id}
+//         card={StateToCompare}
+//         onSelect={onSelect}
+//       />
 //     </div>
 //   );
 // }

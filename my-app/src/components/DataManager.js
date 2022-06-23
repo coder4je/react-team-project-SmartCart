@@ -2,12 +2,13 @@ import { useEffect, useState } from "react";
 import CardCollection from "./CardCollection";
 import CurrentState from "./CurrentState";
 import SearchBar from "./SearchBar";
-// import StateToCompare from "./StateToCompare";
+import Report from "./Report";
 
 function DataManager() {
   const [stateData, setStateData] = useState([]);
   const [selectedItem, setSelectedItem] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
+  const [currState, setCurrState] = useState([]);
 
   const lenOfSelectedItem = selectedItem.length;
   console.log(lenOfSelectedItem);
@@ -19,22 +20,20 @@ function DataManager() {
   }, []);
 
   function handleMoveToSelectedState(selectedState) {
-    // const foundIndex = selectedItem.findIndex(
-    //   (item) => item.id === selectedState.id
-    // );
-    const updatedState = stateData.filter(
-      (item) => item.id !== selectedState.id
+    const foundIndex = selectedItem.findIndex(
+      (item) => item.id === selectedState.id
     );
-    setStateData(updatedState);
 
-    if (selectedItem.length > 2) {
-      selectedItem = null;
+    if (foundIndex < 0 && selectedItem.length <= 1) {
+      setSelectedItem([...selectedItem, selectedState]);
+      console.log(selectedState);
+      setCurrState(selectedState);
     } else {
-      setSelectedItem([selectedState]);
+      console.log("Already on the list");
     }
   }
 
-  function handleRemoveFromSelectedState(selectedState) {
+  function handleRemoveFromSelected(selectedState) {
     const updatedItem = selectedItem.filter(
       (item) => item.id !== selectedState.id
     );
@@ -45,31 +44,23 @@ function DataManager() {
     data.state.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
-  // console.log(selectedItem);
-  // const curStateBox = (
-  //   <div>
-  //     <CurrentState
-  //       selectedItem={selectedItem}
-  //       onSelect={handleRemoveFromSelectedState}
-  //     />
-  //   </div>
-  // );
-  // const stateToCompareBox = (
-  //   <div>
-  //     <StateToCompare
-  //       selectedItem={selectedItem}
-  //       onSelect={handleRemoveFromSelectedState}
-  //     />
-  //   </div>
-  // );
-
   return (
     <>
       <div>
         <SearchBar searchTerm={searchTerm} onChangeSearch={setSearchTerm} />
       </div>
       <div className="selectedContainer">
-        {selectedItem ? <CurrentState selectedItem={selectedItem} /> : null}
+        {selectedItem ? (
+          <CurrentState
+            selectedItem={selectedItem}
+            onSelect={handleRemoveFromSelected}
+          />
+        ) : null}
+      </div>
+      <div>
+        {currState && selectedItem ? (
+          <Report currState={currState} selectedItem={selectedItem[0]} />
+        ) : null}
       </div>
       <div className="stateContainer">
         <CardCollection

@@ -3,357 +3,357 @@
     {
       "id": 1,
       "state": "Mississippi",
-      "index": "83.1",
+      "index": 83.1,
       "image": "https://grid.gograph.com/mississippi-scroll-clip-art-vector_gg73942818.jpg",
       "income": "45,081"
     },
     {
       "id": 2,
       "state": "Oklahoma",
-      "index": "84.8",
+      "index": 84.8,
       "image": "https://grid.gograph.com/46-of-50-states-of-the-united-states-clip-art-vector_gg121637479.jpg",
       "income": "52,919"
     },
     {
       "id": 3,
       "state": "Kansas",
-      "index": "85.4",
+      "index": 85.4,
       "image": "https://grid.gograph.com/kansas-state-flag-vector-stock_gg72367841.jpg",
       "income": "59,597"
     },
     {
       "id": 4,
       "state": "Alabama",
-      "index": "87.5",
+      "index": 87.5,
       "image": "https://grid.gograph.com/22-of-50-states-of-the-united-states-vector-clipart_gg121593101.jpg",
       "income": "50,536"
     },
     {
       "id": 5,
       "state": "Iowa",
-      "index": "88.1",
+      "index": 88.1,
       "image": "https://grid.gograph.com/29-of-50-states-of-the-united-states-vector-illustration_gg143611439.jpg",
       "income": "60,523"
     },
     {
       "id": 6,
       "state": "Georgia",
-      "index": "88.2",
+      "index": 88.2,
       "image": "https://grid.gograph.com/georgia-vector-stock_gg59214327.jpg",
       "income": "58,700"
     },
     {
       "id": 7,
       "state": "Indiana",
-      "index": "89.2",
+      "index": 89.2,
       "image": "https://grid.gograph.com/indiana-state-seal-vector-illustration_gg79254362.jpg",
       "income": "56,303"
     },
     {
       "id": 8,
       "state": "Tennessee",
-      "index": "89.4",
+      "index": 89.4,
       "image": "https://grid.gograph.com/16-of-50-states-of-the-united-states-vector-stock_gg143607793.jpg",
       "income": "53,320"
     },
     {
       "id": 9,
       "state": "Arkansas",
-      "index": "89.9",
+      "index": 89.9,
       "image": "https://grid.gograph.com/25-of-50-states-of-the-united-states-vector-illustration_gg121673517.jpg",
       "income": "50,540"
     },
     {
       "id": 10,
       "state": "Michigan",
-      "index": "89.9",
+      "index": 89.9,
       "image": "https://grid.gograph.com/michigan-eps-vector_gg59214328.jpg",
       "income": "57,144"
     },
     {
       "id": 11,
       "state": "West Virginia",
-      "index": "90.5",
+      "index": 90.5,
       "image": "https://grid.gograph.com/35-of-50-states-of-the-united-states-vector-illustration_gg143602243.jpg",
       "income": "46,711"
     },
     {
       "id": 12,
       "state": "Missouri",
-      "index": "90.5",
+      "index": 90.5,
       "image": "https://grid.gograph.com/24-of-50-states-of-the-united-states-vector-art_gg143606740.jpg",
       "income": "55,461"
     },
     {
       "id": 13,
       "state": "Ohio",
-      "index": "90.8",
+      "index": 90.8,
       "image": "https://grid.gograph.com/waving-flag-of-ohio-vector-illustration-vector-art_gg125519631.jpg",
       "income": "56,602"
     },
     {
       "id": 14,
       "state": "Illinois",
-      "index": "91.7",
+      "index": 91.7,
       "image": "https://grid.gograph.com/illinois-vector-art_gg59022510.jpg",
       "income": "65,886"
     },
     {
       "id": 15,
       "state": "Nebraska",
-      "index": "91.8",
+      "index": 91.8,
       "image": "https://grid.gograph.com/37-of-50-states-of-the-united-states-vector-illustration_gg121602613.jpg",
       "income": "61,439"
     },
     {
       "id": 16,
       "state": "Texas",
-      "index": "92.1",
+      "index": 92.1,
       "image": "https://grid.gograph.com/28-of-50-states-of-the-united-states-clip-art-vector_gg121674448.jpg",
       "income": "61,874"
     },
     {
       "id": 17,
       "state": "Louisiana",
-      "index": "93.3",
+      "index": 93.3,
       "image": "https://grid.gograph.com/louisiana-stamp-vector-art_gg66308825.jpg",
       "income": "49,469"
     },
     {
       "id": 18,
       "state": "Kentucky",
-      "index": "93.6",
+      "index": 93.6,
       "image": "https://grid.gograph.com/kentucky-vector-stock_gg59216872.jpg",
       "income": "50,589"
     },
     {
       "id": 19,
       "state": "New Mexico",
-      "index": "93.6",
+      "index": 93.6,
       "image": "https://grid.gograph.com/47-of-50-states-of-the-united-states-vector-stock_gg143602101.jpg",
       "income": "49,754"
     },
     {
       "id": 20,
       "state": "South Carolina",
-      "index": "93.9",
+      "index": 93.9,
       "image": "https://grid.gograph.com/8-of-50-states-of-the-united-states-vector-clipart_gg121765756.jpg",
       "income": "53,199"
     },
     {
       "id": 21,
       "state": "Wyoming",
-      "index": "93.9",
+      "index": 93.9,
       "image": "https://grid.gograph.com/44-of-50-states-of-the-united-states-clip-art-vector_gg121652949.jpg",
       "income": "64,049"
     },
     {
       "id": 22,
       "state": "North Carolina",
-      "index": "95",
+      "index": 95,
       "image": "https://grid.gograph.com/north-carolina-vector-art_gg56981500.jpg",
       "income": "54,602"
     },
     {
       "id": 23,
       "state": "South Dakota",
-      "index": "95.2",
+      "index": 95.2,
       "image": "https://grid.gograph.com/north-dakota-state-seal-vector-illustration_gg79254402.jpg",
       "income": "58,275"
     },
     {
       "id": 24,
       "state": "Wisconsin",
-      "index": "95.5",
+      "index": 95.5,
       "image": "https://grid.gograph.com/30-of-50-states-of-the-united-states-vector-art_gg143606626.jpg",
       "income": "61,747"
     },
     {
       "id": 25,
       "state": "North Dakota",
-      "index": "96.8",
+      "index": 96.8,
       "image": "https://grid.gograph.com/39-of-50-states-of-the-united-states-vector-illustration_gg121645974.jpg",
       "income": "64,894"
     },
     {
       "id": 26,
       "state": "Minnesota",
-      "index": "97.2",
+      "index": 97.2,
       "image": "https://grid.gograph.com/32-of-50-states-of-the-united-states-eps-illustration_gg121747098.jpg",
       "income": "71,306"
     },
     {
       "id": 27,
       "state": "Pennsylvania",
-      "index": "97.2",
+      "index": 97.2,
       "image": "https://grid.gograph.com/2-of-50-states-of-the-united-states-eps-illustration_gg121718142.jpg",
       "income": "61,744"
     },
     {
       "id": 28,
       "state": "Idaho",
-      "index": "99.4",
+      "index": 99.4,
       "image": "https://grid.gograph.com/43-of-50-states-of-the-united-states-vector-art_gg121685238.jpg",
       "income": "55,785"
     },
     {
       "id": 29,
       "state": "Colorado",
-      "index": "102.4",
+      "index": 102.4,
       "image": "https://grid.gograph.com/colorado-vector-stock_gg59022509.jpg",
       "income": "72,331"
     },
     {
       "id": 30,
       "state": "Florida",
-      "index": "102.6",
+      "index": 102.6,
       "image": "https://grid.gograph.com/27-of-50-states-of-the-united-states-vector-illustration_gg143609915.jpg",
       "income": "55,660"
     },
     {
       "id": 31,
       "state": "Virginia",
-      "index": "102.7",
+      "index": 102.7,
       "image": "https://grid.gograph.com/west-virginia-state-seal-vector-stock_gg79254431.jpg",
       "income": "74,222"
     },
     {
       "id": 32,
       "state": "Nevada",
-      "index": "103.1",
+      "index": 103.1,
       "image": "https://grid.gograph.com/nevada-state-seal-vector-clipart_gg79254389.jpg",
       "income": "60,365"
     },
     {
       "id": 33,
       "state": "Utah",
-      "index": "104.2",
+      "index": 104.2,
       "image": "https://grid.gograph.com/45-of-50-states-of-the-united-states-vector-clipart_gg121714366.jpg",
       "income": "71,621"
     },
     {
       "id": 34,
       "state": "Montana",
-      "index": "104.4",
+      "index": 104.4,
       "image": "https://grid.gograph.com/montana-state-flag-vector-clipart_gg74768189.jpg",
       "income": "54,970"
     },
     {
       "id": 35,
       "state": "Delaware",
-      "index": "105.8",
+      "index": 105.8,
       "image": "https://grid.gograph.com/the-flag-of-the-united-states-of-eps-illustration_gg74475410.jpg",
       "income": "68,287"
     },
     {
       "id": 36,
       "state": "Arizona",
-      "index": "106.7",
+      "index": 106.7,
       "image": "https://grid.gograph.com/arizona-vector-stock_gg59089378.jpg",
       "income": "58,945"
     },
     {
       "id": 37,
       "state": "Rhode Island",
-      "index": "112.8",
+      "index": 112.8,
       "image": "https://grid.gograph.com/13-of-50-states-of-the-united-states-vector-art_gg121564422.jpg",
       "income": "67,167"
     },
     {
       "id": 38,
       "state": "New Jersey",
-      "index": "112.9",
+      "index": 112.9,
       "image": "https://grid.gograph.com/3-of-50-states-of-the-united-states-vector-stock_gg143616719.jpg",
       "income": "82,545"
     },
     {
       "id": 39,
       "state": "Washington",
-      "index": "113.9",
+      "index": 113.9,
       "image": "https://grid.gograph.com/flag-of-usa-state-washington-vector-art_gg131550094.jpg",
       "income": "73,775"
     },
     {
       "id": 40,
       "state": "Maine",
-      "index": "115.1",
+      "index": 115.1,
       "image": "https://grid.gograph.com/maine-state-flag-vector-art_gg72464897.jpg",
       "income": "57,918"
     },
     {
       "id": 41,
       "state": "Vermont",
-      "index": "116.9",
+      "index": 116.9,
       "image": "https://grid.gograph.com/vermont-state-seal-vector-stock_gg79254425.jpg",
       "income": "61,973"
     },
     {
       "id": 42,
       "state": "New Hampshire",
-      "index": "117.4",
+      "index": 117.4,
       "image": "https://grid.gograph.com/new-hampshire-state-flag-vector-art_gg74900924.jpg",
       "income": "76,768"
     },
     {
       "id": 43,
       "state": "Connecticut",
-      "index": "118.9",
+      "index": 118.9,
       "image": "https://grid.gograph.com/5-of-50-states-of-the-united-states-vector-clipart_gg121711150.jpg",
       "income": "78,444"
     },
     {
       "id": 44,
       "state": "Oregon",
-      "index": "125.2",
+      "index": 125.2,
       "image": "https://grid.gograph.com/33-of-50-states-of-the-united-states-eps-vector_gg121607495.jpg",
       "income": "62,818"
     },
     {
       "id": 45,
       "state": "Maryland",
-      "index": "126.4",
+      "index": 126.4,
       "image": "https://grid.gograph.com/7-of-50-states-of-the-united-states-vector-illustration_gg143611438.jpg",
       "income": "84,805"
     },
     {
       "id": 46,
       "state": "Alaska",
-      "index": "127.3",
+      "index": 127.3,
       "image": "https://grid.gograph.com/49-of-50-states-of-the-united-states-vector-illustration_gg121621721.jpg",
       "income": "77,640"
     },
     {
       "id": 47,
       "state": "Massachusetts",
-      "index": "130.2",
+      "index": 130.2,
       "image": "https://grid.gograph.com/massachusetts-state-seal-vector-stock_gg79254376.jpg",
       "income": "81,215"
     },
     {
       "id": 48,
       "state": "California",
-      "index": "139.7",
+      "index": 139.7,
       "image": "https://grid.gograph.com/31-of-50-states-of-the-united-states-vector-stock_gg121578691.jpg",
       "income": "$75,235"
     },
     {
       "id": 49,
       "state": "New York",
-      "index": "152.1",
+      "index": 152.1,
       "image": "https://grid.gograph.com/new-york-vector-illustration_gg57157038.jpg",
       "income": "68,486"
     },
     {
       "id": 50,
       "state": "District of Columbia",
-      "index": "158.8",
+      "index": 158.8,
       "image": "https://grid.gograph.com/u-s-district-of-columbia-vector-clipart_gg70217894.jpg",
       "income": "88,311"
     },
     {
       "id": 51,
       "state": "Hawaii",
-      "index": "192.7",
+      "index": 192.7,
       "image": "https://grid.gograph.com/tropical-beach-illustration-vector-stock_gg67840386.jpg",
       "income": "81,275"
     }
