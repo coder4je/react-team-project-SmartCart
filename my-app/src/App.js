@@ -1,12 +1,17 @@
 import "./App.css";
 import DataManager from "./components/DataManager";
-import Header from "./components/Header";
+import NavBar from "./components/NavBar";
+import { Route, Switch } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Header />
-      <DataManager />
+      <NavBar />
+      <Switch>
+        <Route path="/">
+          <DataManager />
+        </Route>
+      </Switch>
     </>
   );
 }

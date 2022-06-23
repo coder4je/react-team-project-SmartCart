@@ -10,9 +10,6 @@ function DataManager() {
   const [searchTerm, setSearchTerm] = useState("");
   const [currState, setCurrState] = useState([]);
 
-  const lenOfSelectedItem = selectedItem.length;
-  console.log(lenOfSelectedItem);
-
   useEffect(() => {
     fetch("http://localhost:3000/costAndIncome")
       .then((response) => response.json())
@@ -26,10 +23,9 @@ function DataManager() {
 
     if (foundIndex < 0 && selectedItem.length <= 1) {
       setSelectedItem([...selectedItem, selectedState]);
-      console.log(selectedState);
       setCurrState(selectedState);
     } else {
-      console.log("Already on the list");
+      alert("Already on the list");
     }
   }
 
@@ -49,7 +45,7 @@ function DataManager() {
       <div>
         <SearchBar searchTerm={searchTerm} onChangeSearch={setSearchTerm} />
       </div>
-      <div className="selectedContainer">
+      <div className="selected-states">
         {selectedItem ? (
           <CurrentState
             selectedItem={selectedItem}
@@ -57,9 +53,9 @@ function DataManager() {
           />
         ) : null}
       </div>
-      <div>
-        {currState && selectedItem ? (
-          <Report currState={currState} selectedItem={selectedItem[0]} />
+      <div className="report">
+        {selectedItem.length === 2 ? (
+          <Report currState={currState} selectedItem={selectedItem} />
         ) : null}
       </div>
       <div className="stateContainer">
