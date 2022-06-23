@@ -1,27 +1,36 @@
 import { useEffect, useState } from "react";
 import CardCollection from "./CardCollection";
-import SelectedStates from "./SelectedStates";
+import CurrentState from "./CurrentState";
 import SearchBar from "./SearchBar";
+// import StateToCompare from "./StateToCompare";
 
 function DataManager() {
-  const [stateData, setStateDate] = useState([]);
+  const [stateData, setStateData] = useState([]);
   const [selectedItem, setSelectedItem] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
+
+  const lenOfSelectedItem = selectedItem.length;
+  console.log(lenOfSelectedItem);
 
   useEffect(() => {
     fetch("http://localhost:3000/costAndIncome")
       .then((response) => response.json())
-      .then((data) => setStateDate(data));
+      .then((data) => setStateData(data));
   }, []);
 
   function handleMoveToSelectedState(selectedState) {
-    const foundIndex = selectedItem.findIndex(
-      (item) => item.id === selectedState.id
+    // const foundIndex = selectedItem.findIndex(
+    //   (item) => item.id === selectedState.id
+    // );
+    const updatedState = stateData.filter(
+      (item) => item.id !== selectedState.id
     );
-    if (foundIndex < 0) {
-      setSelectedItem([...selectedItem, selectedState]);
+    setStateData(updatedState);
+
+    if (selectedItem.length > 2) {
+      selectedItem = null;
     } else {
-      alert("It's already selected!!");
+      setSelectedItem([selectedState]);
     }
   }
 
@@ -36,22 +45,36 @@ function DataManager() {
     data.state.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
+  // console.log(selectedItem);
+  // const curStateBox = (
+  //   <div>
+  //     <CurrentState
+  //       selectedItem={selectedItem}
+  //       onSelect={handleRemoveFromSelectedState}
+  //     />
+  //   </div>
+  // );
+  // const stateToCompareBox = (
+  //   <div>
+  //     <StateToCompare
+  //       selectedItem={selectedItem}
+  //       onSelect={handleRemoveFromSelectedState}
+  //     />
+  //   </div>
+  // );
+
   return (
     <>
       <div>
         <SearchBar searchTerm={searchTerm} onChangeSearch={setSearchTerm} />
       </div>
-      <div className="mainDisplay">
+      <div className="selectedContainer">
+        {selectedItem ? <CurrentState selectedItem={selectedItem} /> : null}
+      </div>
+      <div className="stateContainer">
         <CardCollection
           stateData={cardDisplay}
           onSelect={handleMoveToSelectedState}
-        />
-      </div>
-      <hr />
-      <div className="selectedStates">
-        <SelectedStates
-          selectedItem={selectedItem}
-          onSelect={handleRemoveFromSelectedState}
         />
       </div>
     </>

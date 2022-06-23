@@ -8,7 +8,7 @@ function DataCard({ card, onSelect }) {
   // }
 
   return (
-    <div className="dataGrid" onClick={() => onSelect(card)}>
+    <div className="stateCard" onClick={() => onSelect(card)}>
       <div className="image">
         <img src={image} alt="state_image" />
       </div>

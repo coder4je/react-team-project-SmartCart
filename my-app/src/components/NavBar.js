@@ -1,16 +1,20 @@
 import React from "react";
+
 // import {NavLink} from 'react-router-dom'
 const Navbar = () => {
   return (
-    <>
-      <div>
-        {/* <NavLink>Home or States Page</NavLink>
-          <NavLink></NavLink>
-          <NavLink></NavLink> */}
-        HOME
-      </div>
-      <div>ABOUTUS</div>
-    </>
+    <ul className="nav-list">
+      <li className="nav-item">
+        <a href="">logo</a>{" "}
+      </li>
+      <li className="nav-item">
+        <a href="">Home</a>{" "}
+      </li>
+      <li className="nav-item">
+        <a href="">Contact</a>
+      </li>
+      <button className="btn-primary">Button</button>
+    </ul>
   );
 };
 export default Navbar;

@@ -5,7 +5,7 @@ function CardCollection({ stateData, onSelect }) {
   const dataDetails = stateData.map((item) => {
     return <DataCard key={item.id} card={item} onSelect={onSelect} />;
   });
-  return <div className="dataDetails">{dataDetails}</div>;
+  return <div className="stateCards">{dataDetails}</div>;
 }
 
-export default CardCollection;
+export default CardCollection
