@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import CardCollection from "./CardCollection";
-import CurrentState from "./CurrentState";
+import StatesToCompare from "./StatesToCompare";
 import SearchBar from "./SearchBar";
 import Report from "./Report";
 
@@ -36,6 +36,10 @@ function DataManager() {
     setSelectedItem(updatedItem);
   }
 
+  function handleClick() {
+    handleRemoveFromSelected(setSelectedItem([]));
+  }
+
   const cardDisplay = stateData.filter((data) =>
     data.state.toLowerCase().includes(searchTerm.toLowerCase())
   );
@@ -45,18 +49,24 @@ function DataManager() {
       <div>
         <SearchBar searchTerm={searchTerm} onChangeSearch={setSearchTerm} />
       </div>
-      <div className="selected-states">
-        {selectedItem ? (
-          <CurrentState
-            selectedItem={selectedItem}
-            onSelect={handleRemoveFromSelected}
-          />
-        ) : null}
-      </div>
-      <div className="report">
-        {selectedItem.length === 2 ? (
-          <Report currState={currState} selectedItem={selectedItem} />
-        ) : null}
+
+      <div className="selected-container">
+        <div className="selected-states-wrapper">
+          <div className="selected-states">
+            {selectedItem ? (
+              <StatesToCompare
+                selectedItem={selectedItem}
+                onSelect={handleRemoveFromSelected}
+              />
+            ) : null}
+          </div>
+
+          <div className="report" onClick={(e) => handleClick(e.target)}>
+            {selectedItem.length === 2 ? (
+              <Report currState={currState} selectedItem={selectedItem} />
+            ) : null}
+          </div>
+        </div>
       </div>
       <div className="stateContainer">
         <CardCollection

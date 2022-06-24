@@ -1,11 +1,11 @@
 import React from "react";
 import DataCard from "./DataCard";
 
-function CurrentState({ selectedItem, onSelect }) {
+function StatesToCompare({ selectedItem, onSelect }) {
   const selectedList = selectedItem.map((item) => {
     return <DataCard key={item.id} card={item} onSelect={onSelect} />;
   });
-  return <div className="selected State Section">{selectedList}</div>;
+  return <div className="states-to-compare">{selectedList}</div>;
 }
 
-export default CurrentState;
+export default StatesToCompare;
