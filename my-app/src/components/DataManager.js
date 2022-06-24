@@ -3,6 +3,8 @@ import CardCollection from "./CardCollection";
 import StatesToCompare from "./StatesToCompare";
 import SearchBar from "./SearchBar";
 import Report from "./Report";
+import AboutApp from "./AboutApp";
+import UserForm from "./UserForm";
 
 function DataManager() {
   const [stateData, setStateData] = useState([]);
@@ -25,7 +27,7 @@ function DataManager() {
       setSelectedItem([...selectedItem, selectedState]);
       setCurrState(selectedState);
     } else {
-      alert("Already on the list");
+      alert("Already on the list or the list is full");
     }
   }
 
@@ -40,40 +42,53 @@ function DataManager() {
     handleRemoveFromSelected(setSelectedItem([]));
   }
 
+  function handleDeleteFromServer(clickedItem) {
+    fetch(`http://localhost:3000/costAndIncome/${clickedItem.id}`, {
+      method: "DELETE",
+    })
+      .then((r) => r.json())
+      .then(() => console.log("Deleted!!"));
+  }
+
   const cardDisplay = stateData.filter((data) =>
     data.state.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
     <>
-      <div>
+      <span className="search">
         <SearchBar searchTerm={searchTerm} onChangeSearch={setSearchTerm} />
-      </div>
+      </span>
 
-      <div className="selected-container">
-        <div className="selected-states-wrapper">
-          <div className="selected-states">
-            {selectedItem ? (
-              <StatesToCompare
-                selectedItem={selectedItem}
-                onSelect={handleRemoveFromSelected}
-              />
-            ) : null}
-          </div>
+      <div className="selectedContainer">
+        <div className="selectedStates">
+          {selectedItem ? (
+            <StatesToCompare
+              selectedItem={selectedItem}
+              onSelect={handleRemoveFromSelected}
+            />
+          ) : null}
+        </div>
 
-          <div className="report" onClick={(e) => handleClick(e.target)}>
-            {selectedItem.length === 2 ? (
-              <Report currState={currState} selectedItem={selectedItem} />
-            ) : null}
-          </div>
+        <div className="report" onClick={(e) => handleClick(e.target)}>
+          {selectedItem.length === 2 ? (
+            <Report currState={currState} selectedItem={selectedItem} />
+          ) : null}
         </div>
       </div>
       <div className="stateContainer">
         <CardCollection
           stateData={cardDisplay}
           onSelect={handleMoveToSelectedState}
+          handleDelete={handleDeleteFromServer}
         />
       </div>
+      <div className="About-app">
+        <AboutApp />
+      </div>
+      <span className="user-form">
+        <UserForm stateData={stateData} />
+      </span>
     </>
   );
 }

@@ -18,11 +18,11 @@ function Report({ currState, selectedItem }) {
   const selectedState = selectedItem.map((item) => item.state);
 
   return (
-    <div className="report">
+    <div className="reportInfo">
       <h1>
         <strong>"</strong>
         Cost of Living of {selectedState[0]} is{" "}
-        <strong style={{ color: selectedItemList[0] < 0 ? "red" : "blur" }}>
+        <strong style={{ color: selectedItemList[0] < 0 ? "red" : "blue" }}>
           {absSelectedItem}
         </strong>
         % <strong>{selectedItemList[0] > 0 ? "higher" : "lower"}</strong> than{" "}
@@ -33,7 +33,7 @@ function Report({ currState, selectedItem }) {
       <h1>
         <strong>"</strong>
         Median Income of {selectedState[0]} is{" "}
-        <strong style={{ color: incomeToCompare[0] < 0 ? "red" : "blur" }}>
+        <strong style={{ color: incomeToCompare[0] < 0 ? "red" : "blue" }}>
           {percOfDiff}
         </strong>
         % <strong>{incomeToCompare[0] > 0 ? "higher" : "lower"}</strong> than{" "}
